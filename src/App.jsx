@@ -38,9 +38,8 @@ function App() {
         <div className="hero-meta"><div><p className="eyebrow">PORTFOLIO / 2026</p><h1 className="hero-name">J. ABHIRAM</h1><p className="hero-role">Web Developer &amp; Creative Designer</p></div><p className="hero-note">Thoughtful digital experiences.<br/>Designed with purpose.</p></div>
         <div className="hero-word" aria-hidden="true">CREATIVE</div>
         <div className="portrait-wrap">
-          {/* Replace public/profile.jpg with your own portrait photo. */}
-          <img className="portrait" src="/profile.jpg" alt="Portrait of J. Abhiram" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling.style.display = 'flex'; }} />
-          <div className="portrait-placeholder"><div className="placeholder-orbit"><span>JA</span></div><p>YOUR PORTRAIT<br/><small>Add your photo as <code>public/profile.jpg</code></small></p></div>
+          <img className="portrait" src="https://drive.google.com/uc?export=view&id=1MgS-dXtOde1EsQ1Mv3AxH4K7RUc96c9x" alt="Portrait of J. Abhiram" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling.style.display = 'flex'; }} />
+          <div className="portrait-placeholder"><div className="placeholder-orbit"><span>JA</span></div><p>YOUR PORTRAIT<br/><small>Make sure the Google Drive photo is shared with “Anyone with the link”.</small></p></div>
           <div className="portrait-caption"><span>DESIGN-MINDED.</span><span>DETAIL-DRIVEN.</span></div>
         </div>
         <div className="hero-bottom"><div className="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer"><Github size={15}/> GitHub <ArrowUpRight size={12}/></a><a href="https://linkedin.com/" target="_blank" rel="noreferrer"><Linkedin size={15}/> LinkedIn <ArrowUpRight size={12}/></a><a href="https://instagram.com/" target="_blank" rel="noreferrer"><Instagram size={15}/> Instagram <ArrowUpRight size={12}/></a></div><a className="scroll-link" href="#about">SCROLL TO EXPLORE <ArrowDownRight size={15}/></a></div>
